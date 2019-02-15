@@ -1,0 +1,95 @@
+/* Available Google Font Familes : 
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Mate', serif;
+font-family: 'Trirong', serif;
+font-family: 'Fanwood Text', serif;
+font-family: 'Audiowide', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Italianno', cursive;
+*/
+
+body{
+	background: url(../images/romanticDate.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	background-color: #99313b;
+	font-family: 'Fanwood Text', serif;
+}
+
+.standard-colors{
+	background-color: #ad656d9b;
+	border: rgb(52, 58, 64) 10px ridge;
+}
+
+.jumbotron{
+	padding: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+}
+
+#search-button{
+	margin: auto;
+	margin-left: 1rem;
+}
+
+#dropdown-button-custom{
+	margin: auto;
+	margin-right: 1rem;
+}
+
+#carouselExampleIndicators{
+	margin-bottom: 2em;
+}
+
+#grid-column{
+	text-align: center;
+}
+
+.dropdown-divider{
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.btn-secondary{
+	background-color: rgb(52, 58, 64);
+}
+
+#copyright-text{
+	color: white;
+}
+
+input {
+	width: 60%;
+}
+
+#recipeIngredientsArea{
+	display: block;
+	text-align: center;
+}
+
+#recipeGenerator{
+	margin-bottom: 10px;
+}
+
+#searchBox{
+	font-display: block;
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+
+#ingredientField{
+	font-display: block;
+	text-align: center;
+}
+
+#logo{
+	font-family: 'Audiowide', cursive; 
+}

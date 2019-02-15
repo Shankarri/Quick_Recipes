@@ -1,0 +1,113 @@
+/* Available Google Font Familes : 
+font-family: 'Goudy Bookletter 1911', serif;
+font-family: 'Mate', serif;
+font-family: 'Trirong', serif;
+font-family: 'Fanwood Text', serif;
+font-family: 'Audiowide', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Parisienne', cursive;
+font-family: 'Allura', cursive;
+font-family: 'Italianno', cursive;
+*/
+
+html, body{
+	height: 100%;
+}
+#logo{
+	font-family: 'Audiowide', cursive; 
+}
+
+body {
+    background-image: url(../images/pouringWine.jpg);
+	background-size: cover;
+	font-family: 'Fanwood Text', serif;
+}
+
+.btn-secondary{
+	background-color: rgb(52, 58, 64);
+}
+
+#main-row{
+	height: 100%;
+	margin: 0;
+}
+
+#recipe-main-column{
+	text-align: center;
+}
+
+h5, h3, h2{
+	text-transform: uppercase;
+}
+
+/* Side Recipes */
+
+.side-recipe-title, #title-div, #wine-pairing{
+	color: white;
+	text-align: center;
+	background-color: rgb(52, 58, 64);
+}
+
+.side-recipe-div{
+	width: 100%;
+	padding-bottom: 18px;
+	margin: 1rem auto;
+	background-color: rgba(137, 61, 70, 0.8);
+	border: rgba(79, 84, 88, 0.884) 5px ridge;
+}
+
+#wine-button{
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+#ingredients-div, #receipe-link-div
+{
+	font-size: 20px;
+	font-weight: bold;	
+}
+
+#middle-main-content-div, #wine-column{
+	margin: auto;
+	margin-top: 5rem;
+	background-color: rgba(222, 184, 135, 0.8);
+	border: rgba(79, 84, 88, 0.884) 5px ridge;
+}
+
+#title-and-ingredients-column{
+	margin: auto;
+}
+
+#image-column{
+	margin: auto;
+	padding-right: 0;
+}
+
+#title-div{
+	font-size: 20px;
+}
+
+/* Wine Column */
+
+
+#wine-type{
+	text-transform: uppercase;
+	padding-top: 1rem;
+}
+
+#wine-brand
+{
+	color: rgba(137, 61, 70, 1);
+	padding-top: 1rem;
+}
+
+
+#wine-type-description, #wine-brand-description, 
+#wine-brand-price, #wine-brand-link, #wine-brand-image
+{
+	position: relative;
+	margin: 0.5rem;
+	padding: 0.5rem;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+}
+
