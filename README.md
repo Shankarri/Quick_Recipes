@@ -1,7 +1,5 @@
 # Quick_Recipes
 
-
-# GroupProject1
 ![App Face](assets/images/appFace.png)
 
 Project Description:
